@@ -10,6 +10,7 @@ The workflow consists of the following phases:
 
 ## System requirements 
 The data structure of the datasets: 
+<pre>
  datasets/ <br/>
    dataset1/ <br/>
     crop_gt/<br/>
@@ -23,6 +24,7 @@ The data structure of the datasets:
      original.dcm<br/>
    dataset2/<br/>
     ...<br/>
+</pre> 
 
 The code contains the following libraries which need to be installed: 
 - os
@@ -54,5 +56,5 @@ The computer which was used contained:
 ## Developer(s)
 Romy Meester
 
-Affiliations: University of Amsterdam (UvA)
+Affiliations: University of Amsterdam (UvA)<br/>
 Visualisation Lab
