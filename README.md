@@ -10,21 +10,21 @@ The workflow consists of the following phases:
 
 ## System requirements 
 The data structure of the datasets: 
-- datasets/ 
-   dataset1/ 
-    crop_gt/
-     gt_001.dcm
-     gt_002.dcm
-     ...
-    crop_org/
-     frame_001.dcm
-     fram_002.dcm
-    real_org/
-     original.dcm
-   dataset2/
-    ...
+ datasets/ <br/>
+   dataset1/ <br/>
+    crop_gt/<br/>
+     gt_001.dcm<br/>
+     gt_002.dcm<br/>
+     ...<br/>
+    crop_org/<br/>
+     frame_001.dcm<br/>
+     frame_002.dcm<br/>
+    real_org/<br/>
+     original.dcm<br/>
+   dataset2/<br/>
+    ...<br/>
 
-The code contains several libraries which need to be installed: 
+The code contains the following libraries which need to be installed: 
 - os
 - sys
 - numpy 
@@ -56,9 +56,3 @@ Romy Meester
 
 Affiliations: University of Amsterdam (UvA)
 Visualisation Lab
-
-
- 
-parameters 
-libraries
-dependencies
