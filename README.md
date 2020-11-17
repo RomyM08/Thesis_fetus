@@ -38,7 +38,6 @@ The code contains the following libraries which need to be installed:
 - copy
 - vtk
 - pandas
-
 - pydicom
 - random
 - jupyterthemes
