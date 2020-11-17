@@ -1,0 +1,30 @@
+* {
+	margin: 0px;
+	padding: 0px;
+}
+
+body {
+	margin: 0px auto;
+	width: 1000px;
+	height: 1080px;
+}
+
+#line {
+	height: 10px;
+	width: 100%;
+	background-color: #87bdd8;
+  margin: 10px;
+}
+
+
+/* colors: https://www.w3schools.com/colors/colors_palettes.asp
+    light blue  HEX: #cfe0e8
+    blue        HEX: #b7d7e8
+    dark blue   HEX: #87bdd8
+    green       HEX: #daebe8*/
+
+/* -------------------------------HEADER------------------------------- */
+#header h1 {
+	font-size: 45px;
+	margin: 25px;
+}

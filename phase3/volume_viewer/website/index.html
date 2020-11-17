@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang='en'>
+  <head>
+    <title> Volume viewer </title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+    integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" href="css/style.css"/>
+
+  <head>
+
+  <body>
+    <div class="container mt-4">
+      <div class='row'>
+        <div id="line"> </div>
+        <!-- The top of the website -->
+        <div class="col-12 text-center">
+          <div id="header">
+            <h1>Volume viewer </h1>
+          </div>
+
+          <!-- The tool of the website (middle) -->
+          <p> The tool </p>
+          <canvas id='vvcanvas' class="img-fluid" width="640" height="480">
+        </div>
+
+        <!-- The bottom of the website -->
+        <div class="mx-auto col-12 col-lg-8 row">
+          <!-- Control pannel -->
+          <div class ="col-12 mt-lg-2 mt-0">
+             <h4> Volume Viewer </h4>
+             <p> The Volume Viewer is a standalone single page web application
+               that can be used to visualize and explore VTI files.
+               The only requirement is the single HTML file without any web server.
+               This application can be use to load vti file and use volume rendering
+               to render them. The current vti supported format is ascii,
+               binary and binary+zlib compression. <br>
+               Direct link:
+               <a href="https://kitware.github.io/vtk-js/examples/VolumeViewer/VolumeViewer.html">VolumeViewer.html</a> </p>
+
+             <h4> Controls </h4> 
+             <h5> Rotate, zoom, pan </h5>
+             <p> Desktop: Left-click + drag to rotate, scroll to zoom, right-click + drag to pan. <br>
+                 Touch: One finger drag to rotate, pinch to zoom, two finger drag to pan. </p>
+             <h5> Editing the opacity transfer function </h5>
+             <h6> With a mouse: </h6>
+
+             <dl class="row">
+                <dt class="col-sm-3">Double click</dt>
+                <dd class="col-sm-9">Create a gaussian at that given position and height with no bias.</dd>
+                <dt class="col-sm-3">Right click</dt>
+                <dd class="col-sm-9">Delete the gaussian underneath.</dd>
+                <dt class="col-sm-3">Drag</dt>
+                <dd class="col-sm-9">Bottom of a gaussian will adjust the width. From left to right will increase the width. <br>
+                  Middle of the gaussian will adjust the biais (x and y). <br>
+                  Top of the gaussian will adjust height. <br>
+                  Anywhere else will adjust its position. </dd>
+            </dl>
+
+            <h6> With touch: </h6>
+            <dl class="row">
+               <dt class="col-sm-3">Double Tap</dt>
+               <dd class="col-sm-9">One finger: create a gaussian at that given position and height with no bias. <br>
+                  Two fingers: delete the gaussian underneath. </dd>
+               <dt class="col-sm-3">Drag</dt>
+               <dd class="col-sm-9">Bottom of a gaussian will adjust the width. From left to right will increase the width. <br>
+                 Middle of the gaussian will adjust the biais (x and y). <br>
+                 Top of the gaussian will adjust height. <br>
+                 Anywhere else will adjust its position. </dd>
+           </dl>
+          </div>
+        </div>
+        <div id="line"> </div>
+      </div>
+    </div>
+  </body>
+
+  <script src="js/volumeviewer.js"></script>
+
+</html>
