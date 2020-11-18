@@ -1,0 +1,13 @@
+jupyterthemes==0.20.0
+Keras==2.2.4
+matplotlib==3.1.1
+numpy==1.18.3
+pandas==0.25.1
+pickle==0.7.5
+pydicom==1.4.2
+scikit-image==0.16.2
+SimpleITK==1.2.4
+sklearn==0.0
+tensorflow==1.13.1
+tqdm==4.46.0
+vtk==8.1.2
