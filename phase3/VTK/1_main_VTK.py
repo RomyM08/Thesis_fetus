@@ -58,8 +58,8 @@ def main():
         from_image = query_function_volume_image(question="Which image do you want to visualise?", default='crop_org')
         print('process:',  visualise, '--', from_dataset, from_image)
     elif visualise == 'mask':
-        # On which image do you want to apply the mask? (original, smoothed)
-        from_image = query_function_image(question="On which image do you want to apply the mask?", default='org')
+        # Of which input image do you want to apply the mask? (original, smoothed)
+        from_image = query_function_image(question="Of which input image do you want to apply the mask?", default='org')
         # from the model: ground truth, heuristic model, u-net
         from_model = query_function_model(question="Of which model do you want to apply the mask?", default='ground_truth')
         if from_model == 'ground_truth':

@@ -105,7 +105,7 @@ def query_function_volume_image(question, default='crop_org'):
             sys.stdout.write("Please respond with '1', '2' or '3' ")
 
 def query_function_image(question, default='org'):
-    """ On which image do you want to apply the mask? """
+    """ Of which input image do you want to apply the mask? """
 
     prompt = " [original/smoothed -- 1/2]"
     original = {'original','1', ''}
