@@ -10,7 +10,7 @@ A workflow consists of the following phases:
 - phase 3: Volume visualisation
 
 ## System requirements 
-Create a dictionary 'datasets' which include all the ultrasound images at the same depth as the above mentioned phases.
+Create a dictionary 'datasets' which include all the ultrasound images at the same depth as the above mentioned phases. <br/>
 The data structure: 
 <pre>
  datasets/ <br/>
