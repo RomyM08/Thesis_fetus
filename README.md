@@ -10,7 +10,8 @@ A workflow consists of the following phases:
 - phase 3: Volume visualisation
 
 ## System requirements 
-The data structure of the datasets: 
+Create a dictionary 'datasets' which include all the ultrasound images at the same depth as the above mentioned phases.
+The data structure: 
 <pre>
  datasets/ <br/>
    dataset1/ <br/>
@@ -27,26 +28,6 @@ The data structure of the datasets:
     ...<br/>
 </pre> 
 
-The code contains the following libraries which need to be installed: 
-- os
-- sys
-- numpy 
-- SimpleITK 
-- pickle
-- time
-- tqdm
-- matplotlib
-- copy
-- vtk
-- pandas
-- pydicom
-- random
-- jupyterthemes
-- skimage
-- sklearn
-- warnings
-- keras
-- tensorflow
 
 The computer which was used contained: 
 - Microsoft Windows 10
